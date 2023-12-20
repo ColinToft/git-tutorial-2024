@@ -1,5 +1,6 @@
 public class Car extends Vehicle {
     private int doors; // number of doors
+    private int wheels = 4; // number of wheels
 
     // Constructor
     Car(int passengers, String colour, int maxSpeed, int doors) {
