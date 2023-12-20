@@ -15,6 +15,8 @@ public class Car extends Vehicle {
 
     public static void main(String[] args) {
         Car car = new Car(4, "red", 200, 4);
+        Car devinsCar = new Car(1, "grey", 180, 4);
         car.display();
+        devinsCar.display();
     }
 }
