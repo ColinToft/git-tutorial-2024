@@ -17,6 +17,8 @@ class Vehicle {
 
     // Display the vehicle's details
     void display() {
-        // TODO
+        System.out.println("Number of Passengers: " + passengers);
+        System.out.println("Colour: " + colour);
+        System.out.println("Maximum Speed: " + maxSpeed);
     }
 }
